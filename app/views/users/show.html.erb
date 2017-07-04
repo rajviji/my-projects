@@ -1,0 +1,27 @@
+<div class="container">        
+            <h3>Add a user</h3>   
+           
+                <div>   
+                  <label> Name</label>   
+                  <%= @user.name %>   
+                </div>   
+      
+                <div>   
+                  <label>age</label>   
+                  <%= @user.age %>   
+                </div>   
+                
+                <div>   
+                  <label>place</label>   
+                  <%= @user.palce %>   
+                </div>   
+             
+                  <div>
+                  <label>phone</label>
+                  <%= @user.phone %>
+                </div>
+
+          <div>   
+            <%= link_to 'Back', { controller: 'users', action: 'index'} %>   
+          </div>   
+    </div>  
